@@ -41,3 +41,17 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* RH added to reduce font sizes -- Adjust Body Text and Header Hierarchy */
+body {
+  font-size: 15px; /* Shrinks the body text slightly more */
+  line-height: 1.6; /* Adds a bit of 'breathability' for a minimal look */
+}
+
+/* Ensure Headers are always proportional and never smaller than body */
+h1 { font-size: 2.0rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.1rem; }  /* This forces H4 to be 10% larger than body */
+h5 { font-size: 1.0rem; font-weight: bold; } /* H5 same as body but bold */
+h6 { font-size: 0.9rem; font-style: italic; } /* H6 slightly smaller but italic */
