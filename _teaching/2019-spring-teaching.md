@@ -3,6 +3,7 @@ title: "Past Courses at the University of Pittsburgh"
 layout: single
 author_profile: true
 share: false
+show_date: false
 permalink: /teaching/2019-spring-teaching
 ---
 
