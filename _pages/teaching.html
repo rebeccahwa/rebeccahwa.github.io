@@ -11,10 +11,11 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 -->
+<ul>
 {% for post in site.teaching reversed %}
-  <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong> 
+  <li><strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong></li>
 {% endfor %}
-
+</ul>
 <!--
 <ul>
   {% assign teaching = site.teaching | sort: 'date' | reverse %}
