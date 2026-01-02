@@ -1,8 +1,8 @@
 ---
 title: "Past Courses at the University of Pittsburgh"
-layout: single
-show_date: false
+collection: teaching
 permalink: /teaching/2019-spring-teaching
+venue: "University of Pittsburgh"
 date: 2019-04-30
 location: "Pittsburgh, USA"
 ---
