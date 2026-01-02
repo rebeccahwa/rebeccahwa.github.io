@@ -6,14 +6,13 @@ layout: single
 author_profile: true
 share: false
 show_date: false
+show_venue: false
 permalink: /teaching/2019-spring-teaching
 venue: "University of Pittsburgh, CS"
 date: 2019-04-30
 location: "Pittsburgh, USA"
 ---
 
-University of Pittsburgh Courses
-======
 * CS1538 Introduction to Simulations 
 * CS1566 Introduction to Computer Graphics 
 * CS1571 Introduction to Artificial Intelligence 
