@@ -1,7 +1,11 @@
 ---
 title: "Past Courses"
-collection: teaching
-type: "courses"
+# collection: teaching
+# type: "courses"
+layout: single
+author_profile: true
+share: false
+show_date: false
 permalink: /teaching/2019-spring-teaching
 venue: "University of Pittsburgh, CS"
 date: 2019-04-30
