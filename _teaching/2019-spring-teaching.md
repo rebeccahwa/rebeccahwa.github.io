@@ -1,10 +1,16 @@
 ---
 title: "Past Courses at the University of Pittsburgh"
+classes: 
+  - wide
+  - hide-metadata
 layout: single
 author_profile: true
 share: false
 show_date: false
 permalink: /teaching/2019-spring-teaching
+venue: "University of Pittsburgh, CS"
+date: 2019-04-30
+location: "Pittsburgh, USA"
 ---
 
 * CS1538 Introduction to Simulations 
