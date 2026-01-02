@@ -6,8 +6,24 @@ author_profile: true
 ---
 
 {% include base_path %}
-
+<!--
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}
+-->
+{% for post in site.teaching reversed %}
+  <strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong> 
+{% endfor %}
 
+<!--
+<ul>
+  {% assign teaching = site.teaching | sort: 'date' | reverse %}
+  {% for course in teaching %}
+    <li>
+      <strong><a href="{{ site.baseurl }}{{ course.url }}">{{ course.title }}</a></strong> 
+      {% if course.venue %} — <i>{{ course.venue }}</i> {% endif %}
+      ({{ course.date | date: '%Y' }})
+    </li>
+  {% endfor %}
+</ul>
+-->
