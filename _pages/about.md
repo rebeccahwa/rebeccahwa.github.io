@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a **Professor of Computer Science** at **The George Washington University**. 
+I am a Professor of Computer Science at The George Washington University. 
 
 ### Research Interests 
 Natural language processing, machine learning, artificial intelligence, and human computer interaction.
