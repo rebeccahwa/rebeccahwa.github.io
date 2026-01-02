@@ -68,3 +68,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 + h2, h2 + h3, h3 + h4, h4 + h5 {
   margin-top: 0.2rem !important;
 }
+
+/* A custom helper class to hide the meta line */
+.hide-metadata .page__meta {
+  display: none !important;
+}
