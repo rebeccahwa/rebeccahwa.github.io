@@ -1,6 +1,7 @@
 ---
 title: "Past Courses at the University of Pittsburgh"
 collection: teaching
+share: false
 permalink: /teaching/2019-spring-teaching
 venue: "University of Pittsburgh"
 date: 2019-04-30
