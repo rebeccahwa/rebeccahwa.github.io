@@ -55,3 +55,16 @@ h3 { font-size: 1.25rem; }
 h4 { font-size: 1.1rem; }  /* This forces H4 to be 10% larger than body */
 h5 { font-size: 1.0rem; font-weight: bold; } /* H5 same as body but bold */
 h6 { font-size: 0.9rem; font-style: italic; } /* H6 slightly smaller but italic */
+
+/* Reduce the gap between headers and text */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.2rem !important;   /* Space above the header */
+  margin-bottom: 0.4rem !important; /* Space below the header */
+  line-height: 1.2;                /* Tightens the space between lines within the header */
+}
+
+/* Special rule: If a header immediately follows another header, 
+   remove the top margin of the second one to close the gap */
+h1 + h2, h2 + h3, h3 + h4, h4 + h5 {
+  margin-top: 0.2rem !important;
+}
