@@ -4,7 +4,6 @@ layout: single
 author_profile: true
 share: false
 permalink: /teaching/2019-spring-teaching
--->
 ---
 
 * CS1538 Introduction to Simulations 
