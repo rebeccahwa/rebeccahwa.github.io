@@ -14,4 +14,3 @@ Natural language processing, machine learning, artificial intelligence, and huma
 ### Current PhD students 
 * Iyad Ait Hou
 * Alice Dragnea
-* Louise Yufei Zhu
